@@ -1,14 +1,19 @@
 {
-  "name": "travis-ci-testing",
-  "version": "0.0.2",
-  "description": "xxxx",
-  "main": "test.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mocha": "~1.17.0"
-  }
+    "name": "travis-ci-testing",
+    "version": "0.0.2",
+    "description": "xxxx",
+    "main": "test.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "mocha-lcov-reporter": "0.0.1",
+        "mocha": "~1.17.0",
+        "coveralls": "2.3.0"
+    }
 }

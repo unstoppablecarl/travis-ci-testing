@@ -1,4 +1,6 @@
 var assert = require("assert")
+var lib = require('../src/lib.js');
+console.log(lib);
 describe('Array', function(){
   describe('#indexOf()', function(){
     it('should return -1 when the value is not present', function(){
@@ -9,10 +11,11 @@ describe('Array', function(){
 })
 
 
-describe('Something', function(){
-  describe('doSomethingElse()', function(){
+describe('Adding', function(){
+  describe('add()', function(){
     it('should do something when something', function(){
-      assert.equal(1, 1);
+
+      assert.equal(3, lib.add(1,2));
       assert.equal(1, true);
 
 
