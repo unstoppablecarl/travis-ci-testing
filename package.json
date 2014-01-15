@@ -1,7 +1,7 @@
 {
   "name": "travis-ci-testing",
   "version": "0.0.2",
-  "description": "",
+  "description": "xxxx",
   "main": "test.js",
   "scripts": {
     "test": "mocha"
